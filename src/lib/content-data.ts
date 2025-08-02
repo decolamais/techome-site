@@ -40,16 +40,16 @@ export const appsSection = {
   subtitle: 'Ferramentas modernas para facilitar o dia a dia de pessoas e pequenos negócios.',
   apps: [
     {
-      icon: 'TrendingUp',
-      title: 'Gestor Fácil',
-      description: 'Um sistema de gestão completo para micro e pequenas empresas. Controle financeiro, estoque e clientes em um só lugar.',
-      link: '#',
+      icon: 'Car',
+      title: 'Gestão de Aluguel de Frota',
+      description: 'Gerencie sua frota de veículos de forma eficiente, com controle de contratos, manutenções e disponibilidade. Acesse o app para otimizar suas operações.',
+      link: 'https://rentals.techome.dev.br',
     },
     {
-      icon: 'Briefcase',
-      title: 'Agenda Pro',
-      description: 'Organize sua rotina pessoal e profissional com uma agenda inteligente, cheia de recursos para otimizar seu tempo.',
-      link: '#',
+      icon: 'Calculator',
+      title: 'Orçamento para Automação Residencial',
+      description: 'Crie orçamentos detalhados e personalizados para projetos de automação residencial. Simplifique o processo de vendas e apresente propostas profissionais.',
+      link: 'https://budget.techome.dev.br',
     },
   ],
 };

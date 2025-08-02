@@ -1,7 +1,7 @@
 'use client';
 
 import { motion, cubicBezier } from 'framer-motion';
-import { ArrowRight, Briefcase, Code, Home as HomeIcon, Smartphone, TrendingUp } from 'lucide-react';
+import { ArrowRight, Briefcase, Code, Home as HomeIcon, Smartphone, TrendingUp, Car, Calculator } from 'lucide-react';
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -15,6 +15,8 @@ const iconMap: { [key: string]: React.ElementType } = {
   Code: Code,
   TrendingUp: TrendingUp,
   Briefcase: Briefcase,
+  Car: Car,
+  Calculator: Calculator,
 };
 
 export default function Home() {
@@ -25,7 +27,7 @@ export default function Home() {
   };
 
   return (
-    <div className="flex flex-col min-h-screen bg-white">
+    <div className="flex flex-col min-h-screen">
       {/* Header */}
       <header className="fixed top-0 left-0 right-0 z-50 px-4 lg:px-6 h-16 flex items-center bg-white/80 backdrop-blur-sm shadow-sm">
         <a className="flex items-center justify-center" href="#">
