@@ -7,7 +7,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
-import { navLinks, heroSection, servicesSection, appsSection, portfolioSection, importantLinksSection } from '@/lib/content-data';
+import { navLinks, heroSection, servicesSection, appsSection, portfolioSection, aboutSection, importantLinksSection } from '@/lib/content-data';
 
 // Mapeamento de ícones para não passar a referência da função diretamente
 const iconMap: { [key: string]: React.ElementType } = {
@@ -170,6 +170,37 @@ export default function Home() {
               ))}
             </div>
           </div>
+        </section>
+
+        {/* About Section */}
+        <section id="about" className="w-full py-12 md:py-24 lg:py-32 bg-gray-50">
+            <div className="container px-4 md:px-6">
+                <div className="grid gap-8 lg:grid-cols-2 lg:gap-16">
+                    <motion.div {...fadeIn} transition={{ ...fadeIn.transition, delay: 0.2 }}>
+                        <Image
+                            alt="About Us Image"
+                            className="mx-auto aspect-video overflow-hidden rounded-xl object-cover"
+                            height="450"
+                            src={aboutSection.imageUrl}
+                            width="800"
+                        />
+                    </motion.div>
+                    <motion.div {...fadeIn} className="flex flex-col justify-center space-y-6">
+                        <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">{aboutSection.title}</h2>
+                        <div 
+                            className="text-gray-600 md:text-lg space-y-4"
+                            dangerouslySetInnerHTML={{ __html: aboutSection.content }}
+                        />
+                        <div className="mt-8">
+                            <h3 className="text-2xl font-bold tracking-tighter sm:text-3xl">{aboutSection.founder.title}</h3>
+                            <div 
+                                className="text-gray-600 md:text-lg space-y-4 mt-4"
+                                dangerouslySetInnerHTML={{ __html: aboutSection.founder.description }}
+                            />
+                        </div>
+                    </motion.div>
+                </div>
+            </div>
         </section>
 
         {/* Important Links Section */}

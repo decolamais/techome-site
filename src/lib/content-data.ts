@@ -79,6 +79,27 @@ export const portfolioSection = {
   ],
 };
 
+export const aboutSection = {
+  title: 'Sobre a Techome',
+  subtitle: 'Unindo tecnologia e design para criar experiências únicas.',
+  content: `
+    <p>Na Techome, somos apaixonados por como a tecnologia pode transformar espaços e simplificar vidas. Nascemos da visão de que a automação residencial e o desenvolvimento de software podem e devem andar juntos, criando soluções coesas, inteligentes e, acima de tudo, humanas.</p>
+    <p>Nossa jornada começou com a automação de residências, onde aprendemos a importância de ouvir o cliente e a projetar sistemas que se adaptam às suas necessidades reais. Cada projeto nos ensinou sobre a delicadeza de integrar a tecnologia a um lar, tornando-a uma aliada invisível e poderosa no dia a dia.</p>
+    <p>Com o tempo, expandimos nossa atuação para o desenvolvimento de aplicações web, levando a mesma filosofia de design centrado no usuário para o mundo digital. Criamos sistemas que não apenas funcionam, mas que encantam pela sua simplicidade e eficiência.</p>
+    <p>Seja bem-vindo à Techome. Estamos aqui para construir o futuro com você.</p>
+  `,
+  founder: {
+    title: 'A Mente por Trás da Inovação',
+    name: 'Cidikley Barbosa',
+    description: `
+      <p>À frente da Techome está Cidikley Barbosa, um Analista de Sistemas com uma trajetória profissional de mais de duas décadas, moldada pela precisão e pela segurança exigidas no ambiente de alta tecnologia da gestão de sistemas aeroportuários. Essa base sólida, construída sobre a robustez e a confiabilidade, foi o alicerce para sua verdadeira paixão: a automação residencial.</p>
+      <p>Há mais de cinco anos, Cidikley mergulhou no universo da casa inteligente, dedicando-se a explorar e implementar soluções de automação residencial que se destacam pelo uso de plataformas de baixo custo. Ele acredita que a tecnologia de ponta não precisa ser inacessível. Sua missão é democratizar o conforto e a eficiência, transformando residências comuns em lares inteligentes e conectados.</p>
+      <p>A Techome nasceu dessa visão: unir a vasta experiência em sistemas críticos com a paixão por criar ambientes personalizados e intuitivos. Cada projeto carrega a marca de um especialista que entende profundamente de tecnologia e, mais importante, entende as necessidades e os desejos de cada cliente.</p>
+    `,
+  },
+  imageUrl: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+};
+
 export const importantLinksSection = {
     title: 'Links Importantes',
     subtitle: 'Acesse recursos, parceiros e informações úteis.',
